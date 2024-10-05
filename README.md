@@ -50,6 +50,9 @@ Subscriber2 received message on topic 'weather': Cold front approaching.
 **Key Components**:
 
 **Publisher**: Publishes a message by creating a Message object and sending it to the broker.
+
 **Subscriber**: Receives messages on topics they are subscribed to.
+
 **PubSubBroker**: Uses multithreading to process messages and deliver them to subscribers asynchronously.
+
 
