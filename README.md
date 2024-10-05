@@ -29,8 +29,7 @@ This project implements an efficient Pub-Sub system using Object-Oriented Progra
 ├── main.cpp         # Entry point of the program
 └── README.md        # This file
 
-
-Example Output
+**Example Output**
 The program demonstrates message delivery for two topics: news and weather. Below is an example output:
 Subscriber1 received message on topic 'news': AI writes poems!
 Subscriber2 received message on topic 'weather': Sunny day ahead.
