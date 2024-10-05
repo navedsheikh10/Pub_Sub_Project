@@ -22,13 +22,13 @@ This project implements an efficient Pub-Sub system using Object-Oriented Progra
 - FIFO message delivery through a message queue.
 
 ## Project Structure
-.
+```.
 ├── Publisher.hpp    # Publisher class header
 ├── Subscriber.hpp   # Subscriber class header
 ├── PubSubBroker.hpp # PubSubBroker class header
 ├── main.cpp         # Entry point of the program
 └── README.md        # This file
-
+```
 **Example Output**
 The program demonstrates message delivery for two topics: news and weather. Below is an example output:
 Subscriber1 received message on topic 'news': AI writes poems!
